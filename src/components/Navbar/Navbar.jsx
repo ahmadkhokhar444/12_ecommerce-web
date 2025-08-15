@@ -58,7 +58,7 @@ const Navbar = ({ handleOrderPopup }) => {
           <div data-aos="zoom-out">
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10 uppercase " />
-              Foodie Zone
+              Ecommerce store
             </a>
           </div>
 
