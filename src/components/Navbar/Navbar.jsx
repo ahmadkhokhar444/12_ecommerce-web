@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/Logo(2).jpg";
+import Logo from "../../assets/Logo(1).jpg";
 import { IoSearch } from "react-icons/io5";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
 import ThemeBtn from "./DarkMode.jsx";
@@ -58,7 +58,7 @@ const Navbar = ({ handleOrderPopup }) => {
           <div data-aos="zoom-out">
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10 uppercase " />
-              Khokhar444King
+              Foodie Zone
             </a>
           </div>
 

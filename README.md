@@ -1,12 +1,86 @@
-# React + Vite
+# Ecommerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern ecommerce web application built with React.js, Vite, and Tailwind CSS. This project demonstrates a responsive online store UI with product listings, banners, testimonials, and more.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive design for desktop and mobile
+- Product showcase and top products section
+- Banner and hero sections
+- Dark mode toggle
+- Popup notifications
+- Footer and subscription form
+- Customer testimonials
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React.js](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or above recommended)
+- npm or yarn
+
+### Installation
+
+1.  Clone the repository:
+    ```powershell
+    git clone https://github.com/ahmadkhokhar444/11_Ecommerce_web.git
+    ```
+2.  Navigate to the project directory:
+    ```powershell
+    cd 11_Ecommerce_web
+    ```
+3.  Install dependencies:
+    ```powershell
+    npm install
+    ```
+
+### Running the App
+
+Start the development server:
+
+```powershell
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+## Folder Structure
+
+```
+src/
+	components/
+	  Banner/
+	  Footer/
+	  Hero/
+	  Navbar/
+	  Popup/
+	  Products/
+	  Subscribe/
+	  Testimonials/
+	  TopProducts/
+	assets/
+	App.jsx
+	main.jsx
+	index.css
+public/
+```
+
+## Customization
+
+- Update images in `src/assets/` and `public/` as needed.
+- Modify components in `src/components/` to add new features or change UI.
+
+## Credits
+
+- Images and icons are for demo purposes only.
+- Developed by Ahmad Khokhar.
+
+## License
+
+This project is licensed under the MIT License.
