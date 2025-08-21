@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
           {/* image section*/}
-          <div data-aos="fade-right">
+          <div data-aos="fade-right">s
             <img
               src={BannerImg}
               alt=""
